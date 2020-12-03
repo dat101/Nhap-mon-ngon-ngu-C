@@ -1,17 +1,17 @@
 #include <stdio.h>
     //Nhap diem van va diem toan tu ban phim
 int main(void) {
-	int v, t, dtb;
+	double v, t, dtb;
 printf("Nhap v= ");
-scanf("%d", &v);
+scanf("%lf", &v);
 printf("Nhap t= ");
-scanf("%d", &t);
+scanf("%lf", &t);
     //Tong diem trung binh van va toan
-printf("v + t = %d", v + t );
+printf("v + t = %lf", v + t );
 dtb=(v+t)/2;
     //Hien thi diem van, toan, diem trung binh
-printf("Diemvan(v)\tDiemtoan(t)\tDiemtrungbinh(dtb)\n");
-printf("%d\t%d\t%d", t, v, dtb);
+printf("Diem van(v)\tDiem toan(t)\tDiem trung binh(dtb)\n");
+printf("%.2f\t%.2f\t%.2f", t, v, dtb);
 
 return 0;
 }
