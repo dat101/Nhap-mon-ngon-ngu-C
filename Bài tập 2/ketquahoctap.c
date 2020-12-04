@@ -7,7 +7,6 @@ scanf("%lf", &v);
 printf("Nhap t= ");
 scanf("%lf", &t);
     //Tong diem trung binh van va toan
-printf("v + t = %lf", v + t );
 dtb=(v+t)/2;
     //Hien thi diem van, toan, diem trung binh
 printf("Diem van(v)\tDiem toan(t)\tDiem trung binh(dtb)\n");
