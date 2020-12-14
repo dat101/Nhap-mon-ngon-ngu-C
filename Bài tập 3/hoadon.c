@@ -9,7 +9,7 @@ printf("Nhap so luong mat hang =");
 scanf("%fl", &soluong);
     if (soluong >=5 ) {
 // tinh thanh tien, giam gia 25% khi mua tren 5 mat hang
-thanhtien = ( dongia*soluong );
+thanhtien = ( dongia*soluong )*0.75;
   	}else {
  printf("Don gia\tso luong\tthanh tien\n");
  printf("%.f\t%.f\t%.f", dongia, soluong, thanhtien);
