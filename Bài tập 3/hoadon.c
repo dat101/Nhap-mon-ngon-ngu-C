@@ -2,17 +2,18 @@
 
 int main() {
 // nhap bien dongia, soluong,thanhtien tu ban phim
-	int dongia, soluong, thanhtien;
+	double dongia, soluong, thanhtien;
 printf("Nhap don gia mat hang =");
-scanf("%d", &dongia);
+scanf("%fl", &dongia);
 printf("Nhap so luong mat hang =");
-scanf("%d", &soluong);
+scanf("%fl", &soluong);
     if (soluong >=5 ) {
 // tinh thanh tien, giam gia 25% khi mua tren 5 mat hang
-thanhtien = ( dongia*soluong )*0.75;
+thanhtien = ( dongia*soluong );
   	}else {
- printf("%d", &thanhtien);
-  }
+ printf("Don gia\tso luong\tthanh tien\n");
+ printf("%.f\t%.f\t%.f", dongia, soluong, thanhtien);
+}
  
   getchar();
   return 0;
