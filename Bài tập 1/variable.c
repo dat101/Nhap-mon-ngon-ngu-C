@@ -1,26 +1,20 @@
 #include <stdio.h>
 
-int main(){
-    // khai bao bien a kieu so nguyen   
-  int a;
-    // khoi tao gia tri bien a
-    a = 4;
-    // khai bao va khoi tao bien
-    int b = 2;
-    // khai bao nhieu bien va khoi tao
-    int c = 1, d = 3;
-    // khai bao nhieu bien 
-    int e, f, g;
-  printf("Bien a = %d va bien b = %d",a,b);
-  e = a + b;
-  printf("\n");
-  printf("tong a + b = %d" ,e);
-  printf("\n");
-  printf("tong %d + %d = %d" ,a,b,e);
-  printf("\n");  
-  g = ((a + b)-c)*d;
-  printf("((%d + %d)-%d)*%d = %d" ,a,b,c,d,g);
-  
+int main() {
+// nhap bien dongia, soluong,thanhtien tu ban phim
+	float dongia, soluong, thanhtien;
+printf("Nhap so luong mat hang =");
+scanf("%fl", &soluong);
+printf("Nhap don gia mat hang =");
+scanf("%fl", &dongia);
+// tinh thanh tien, giam gia 50% khi mua tren 5 mat hang va don gia tren 500
+    if (soluong >=5 && dongia >=500 ) {
+thanhtien=(dongia*soluong)*0.5;
+printf("%.f", thanhtien);
+  	}else {
+printf("%.f", thanhtien);
+
+ }
   getchar();
   return 0;
-}
+ } 		
