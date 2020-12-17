@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+// chuong trinh khoi tao phep tinh
 int main(void) {
-  int a = 5 , b = 6;
+  int a = 6 , b = 6;
   char pt;
   
   printf("Vui long nhap phep tinh (+ ,-): ");
