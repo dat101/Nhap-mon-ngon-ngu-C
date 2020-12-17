@@ -49,7 +49,7 @@ int main() {
 		break;
 	
 	case 11:
-	    printf("30 ngay");
+	        printf("30 ngay");
 		break;
 	
 	case 12:
