@@ -1,7 +1,5 @@
 #include <stdio.h>
- 
-void main()
-{
+ int main() {
     int i, n;
     int tongle = 0, tongchan = 0;
  
@@ -16,4 +14,6 @@ void main()
     }
     printf("Tong cua cac so le la: %d\n", tongle);
     printf("Tong cua cac so chan la: %d\n", tongchan);
+ 
+  return 0;
 }
