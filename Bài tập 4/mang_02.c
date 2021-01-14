@@ -10,8 +10,7 @@
         printf("\nCac phan tu mang a: %d ", a[i]);
      
 	if (a[i]%2 == 0)
-}
         printf("\nCac so chan mang a: %d ", a[i]);
-   
+    }
    return 0;
 } 
