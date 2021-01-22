@@ -1,6 +1,6 @@
 //Khoi khai bao
 #include<stdio.h>
-int pt_mang(int n, int a);
+int pt_mang(int n);
  //khoi ham main
 int main(){
   int n;
