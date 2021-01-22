@@ -26,12 +26,10 @@
 	
 	for (i = 0; i < n; i++) {
    if (a[i] == m) 
-
-	printf("\nCo ton tai");
+	   
 	printf("\nSo phan tu co gia tri la ");
 
    else 
-   printf("\nKhong ton tai");
    printf("\nKhong ton tai m trong mang a");
    break;
 
