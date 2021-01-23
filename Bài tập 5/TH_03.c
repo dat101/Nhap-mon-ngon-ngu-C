@@ -1,5 +1,8 @@
-#include <stdio.h>
-int main() {
+#include <stdio.h> 
+ int a, b, c;
+ int so_lon_nhat(int a, int b, int c);
+ 
+ int main() {
  	
  	printf("Nhap a = ");
     scanf("%d", &a);
@@ -10,13 +13,13 @@ int main() {
     
     
     if(a > b && a > c) 
-    printf("So lon nhat la a");
+    printf("So lon nhat la %d", a);
     
     else if(b > a && b > c)
-	printf("So lon nhat b");
+	printf("So lon nhat %d", b);
 	
 	else 
-	printf("So lon nhat la c");      
+	printf("So lon nhat la %d", c);      
 
     return 0;
 }    
