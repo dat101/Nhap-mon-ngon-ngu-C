@@ -1,9 +1,8 @@
 #include <stdio.h> 
- int a, b, c;
  int so_lon_nhat(int a, int b, int c);
  
  int main() {
- 	
+ int a, b, c;
     printf("Nhap a = ");
     scanf("%d", &a);
     printf("Nhap b = ");
