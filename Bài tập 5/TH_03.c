@@ -17,14 +17,16 @@
     
     else if(b > a && b > c)
 	printf("So lon nhat la: %d", b);
-	
-	else 
-	printf("So lon nhat la: %d", c);      
-
+	 
+    else if(c > a && c > b)
+	printf("So lon nhat la %d", c);      
+    
+    else 
+    printf("Co 2 hoac 3 so lon bang nhau");	 
+	  
     return 0;
 }    
    int so_lon_nhat(int a, int b, int c) {
-   	
    	
    	return 0;
 }   	
