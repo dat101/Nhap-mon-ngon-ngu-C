@@ -4,22 +4,22 @@
  
  int main() {
  	
- 	printf("Nhap a = ");
+    printf("Nhap a = ");
     scanf("%d", &a);
-	printf("Nhap b = ");
+    printf("Nhap b = ");
     scanf("%d", &b);
     printf("Nhap c = ");
     scanf("%d", &c);
     
     
     if(a > b && a > c) 
-    printf("So lon nhat la %d", a);
+    printf("So lon nhat la: %d", a);
     
     else if(b > a && b > c)
-	printf("So lon nhat %d", b);
+	printf("So lon nhat la: %d", b);
 	
 	else 
-	printf("So lon nhat la %d", c);      
+	printf("So lon nhat la: %d", c);      
 
     return 0;
 }    
