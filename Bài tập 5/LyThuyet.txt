@@ -7,7 +7,8 @@ Các ký hiệu đặc biệt: :. , ; " ' _ @ # $ ! ^ [ ] { } ...
 Dấu cách hay khoảng trống, xuống hàng (\n) và tab (\t)
 
 Câu b :
-Các kiểu dữ liệu cơ sở trong C : kiểu số nguyên và kiểu số thực
+Các kiểu dữ liệu cơ sở trong C : kiểu số nguyên ( int, char, long ...)
+kiểu số thực (float, double ...) 
 
 Câu c : khái niệm :
 Biến là một đại lượng được người lập trình định nghĩa và được đặt tên thông qua việc khai báo biến. Biến dùng để chứa dữ liệu trong quá trình thực hiện chương trình và giá trị của biến có thể bị thay đổi trong quá trình này. Cách đặt tên biến giống như cách đặt tên đã nói trong phần trên.
