@@ -11,7 +11,6 @@
  for (bc=a;bc<=a*b;bc++){
         if (bc%a==0 && bc%b==0){
             printf("BCNN(%d,%d)= %d\n",a,b,bc);
-            break;
         }
     }
     return 0;
