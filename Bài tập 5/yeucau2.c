@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main() {
-
     int r;
     float chuvi, dientich, Pi = 3.14159;
 
